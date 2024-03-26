@@ -12,11 +12,10 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.0.0"
 
-  spec.metadata["homepage_uri"] = repo_url
   spec.metadata["source_code_uri"] = repo_url
 
-  spec.files = ["pry_to_irb_alias.rb"]
+  spec.files = ["lib/pry_to_irb_alias.rb"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "irb"
+  spec.add_dependency "irb", "~> 0"
 end
