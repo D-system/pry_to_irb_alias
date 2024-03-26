@@ -2,7 +2,7 @@ repo_url = "https://github.com/D-system/pry_to_irb_alias"
 
 Gem::Specification.new do |spec|
   spec.name = "pry_to_irb_alias"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.authors = ["Thomas Brennetot"]
   spec.email = ["thomas@brennetot.com"]
 
@@ -17,5 +17,5 @@ Gem::Specification.new do |spec|
   spec.files = ["lib/pry_to_irb_alias.rb"]
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "irb", "~> 0"
+  spec.add_dependency "irb"
 end
