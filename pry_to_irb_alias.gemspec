@@ -2,7 +2,7 @@ repo_url = "https://github.com/D-system/pry_to_irb_alias"
 
 Gem::Specification.new do |spec|
   spec.name = "pry_to_irb_alias"
-  spec.version = "1.0.1"
+  spec.version = "1.1.0"
   spec.authors = ["Thomas Brennetot"]
   spec.email = ["thomas@brennetot.com"]
 

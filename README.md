@@ -31,3 +31,9 @@ Please call `irb` next time.
 
 irb(main):001>
 ```
+
+
+## Pry alias
+
+The following pry alias can be used:
+- `!!!` to exit
